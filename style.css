@@ -16,6 +16,15 @@ body {
     justify-content: space-between;
 }
 
+.container-home {
+    padding-top: 2em;
+}
+
+.sidebar {
+    padding-left: 1em;
+    width: 30%;
+}
+
 header {
     background: #F8F8F8;
     padding: 2em 0;
