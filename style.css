@@ -16,6 +16,10 @@ body {
     justify-content: space-between;
 }
 
+.article-main {
+    padding-right: 0.4em;
+}
+
 .container-home {
     padding-top: 2em;
 }
@@ -37,9 +41,6 @@ header {
     border-bottom: 1px solid #707070;
 }
 
-.article-main {
-    width: 80%;
-}
 
 .big-img {
     width: 100%;
@@ -59,6 +60,14 @@ h1 {
 h2 {
     font-family: 'Lora', sans-serif;
     font-size: 1.5rem;
+    color: #143774;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: .75rem;
     color: #143774;
 }
 
