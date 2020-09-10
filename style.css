@@ -48,27 +48,25 @@ header {
 
 /* typography */
 
-h1 {
+h1, h2, h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
-    font-size: 2rem;
+    margin-top: 0;
     color: #143774;
+}
+
+h1 {
+    font-size: 2rem;
     text-transform: initial;
-    margin: 0;
+
 }
 
 h2 {
-    font-family: 'Lora', sans-serif;
     font-size: 1.5rem;
-    color: #143774;
-    margin-top: 0;
 }
 
 h3 {
-    font-family: 'Lora', sans-serif;
-    font-weight: 400;
     font-size: .75rem;
-    color: #143774;
 }
 
 .subtitle {
