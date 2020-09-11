@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
 }
 
-.container-nav, .container-home, .post-preview {
+.container-flex, .post-preview {
     display: flex;
     justify-content: space-between;
 }
