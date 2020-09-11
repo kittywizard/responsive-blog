@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .container {
     width: 80%;
     max-width: 900px;
@@ -20,30 +25,26 @@ body {
     padding-right: 0.4em;
 }
 
-.container-home {
-    padding-top: 2em;
-}
-
-.sidebar {
-    padding-left: 1em;
-    width: 30%;
-}
-
 header {
     background: #F8F8F8;
     padding: 2em 0;
     text-transform: uppercase;
 }
 
+main {
+    width: 75%;
+    padding-top: 2em;
+}
+
+aside {
+    width: 15%;
+    padding-top: 2em;
+}
+
 .featured {
     margin-bottom: 2em;
     padding-bottom: 2em;
     border-bottom: 1px solid #707070;
-}
-
-
-.big-img {
-    width: 100%;
 }
 
 /* typography */
@@ -141,7 +142,7 @@ nav a:focus {
 /* media queries */
 
 @media (max-width: 600px) {
-    .container-nav {
+    .container-flex {
         flex-direction: column;
         justify-content: center;
     }
