@@ -18,7 +18,8 @@ img {
 
 .container-flex, .post-preview {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .article-main {
@@ -29,6 +30,7 @@ header {
     background: #F8F8F8;
     padding: 2em 0;
     text-transform: uppercase;
+    text-align: center;
 }
 
 main {
@@ -109,12 +111,13 @@ a:focus {
 nav ul {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     list-style-type: none;
     padding: 0;
 }
 
 nav li {
-    margin-left: 2em;
+    margin: 0.75em;
 }
 
 nav a {
@@ -141,21 +144,6 @@ nav a:focus {
 
 /* media queries */
 
-@media (max-width: 600px) {
-    .container-flex {
-        flex-direction: column;
-        justify-content: center;
-    }
+@media (min-width: 600px) {
 
-    header {
-        text-align: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav li {
-    margin:  0.75em;
-    }
 }
