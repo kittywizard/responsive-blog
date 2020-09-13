@@ -19,7 +19,7 @@ img {
 .container-flex, .post-preview {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .article-main {
@@ -31,16 +31,6 @@ header {
     padding: 2em 0;
     text-transform: uppercase;
     text-align: center;
-}
-
-main {
-    width: 75%;
-    padding-top: 2em;
-}
-
-aside {
-    width: 15%;
-    padding-top: 2em;
 }
 
 .featured {
@@ -144,6 +134,18 @@ nav a:focus {
 
 /* media queries */
 
-@media (min-width: 600px) {
+@media (min-width: 675px) {
+    .container-flex, .post-preview, nav ul {
+        flex-direction: row;
+    }
 
+    main {
+        width: 75%;
+        padding-top: 2em;
+    }
+    
+    aside {
+        width: 15%;
+        padding-top: 2em;
+    }
 }
