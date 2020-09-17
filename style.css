@@ -39,6 +39,12 @@ header {
     border-bottom: 1px solid #707070;
 }
 
+.sidebar-widget {
+    border: 15px solid rgba(20, 20, 20, 0.1);
+    margin-bottom: 3em;
+    padding: 1em;
+}
+
 /* typography */
 
 h1, h2, h3 {
@@ -51,6 +57,7 @@ h1, h2, h3 {
 h1 {
     font-size: 2rem;
     text-transform: initial;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -63,10 +70,14 @@ h3 {
 
 .subtitle {
     color: #1792D2;
+}
+
+.subtitle, .widget-title, a {
     font-weight: 700;
     font-size: .75rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     margin: 0;
+    text-transform: uppercase;
 }
 
 p {
@@ -77,13 +88,14 @@ strong {
     font-weight: 700;
 }
 
+.widget-title {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 1em;
+}
+
 a {
-    text-transform: uppercase;
     color: #1792D2;
-    font-weight: 700;
     text-decoration: none;
-    letter-spacing: 0.1rem;
-    font-size: 0.75rem;
 }
 
 a:hover,
@@ -140,12 +152,12 @@ nav a:focus {
     }
 
     main {
-        width: 75%;
+        width: 70%;
         padding-top: 2em;
     }
     
     aside {
-        width: 15%;
+        width: 25%;
         padding-top: 2em;
     }
 
