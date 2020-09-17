@@ -148,4 +148,11 @@ nav a:focus {
         width: 15%;
         padding-top: 2em;
     }
+
+    .article-img {
+        width: 100%;
+        min-height: 200px;
+        object-fit: cover; /* this will crop your image */
+        object-position: center; /* this will position how it crops */
+    }
 }
